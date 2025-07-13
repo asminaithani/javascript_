@@ -40,8 +40,17 @@ const users = [
     }
 ]
 users[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(tinderUser.hasOwnProperty(`isLoggedIn`));
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(tinderUser.hasOwnProperty(`isLoggedIn`));
+
+const course = {
+    coursename: "btech",
+    price: "1000",
+    courseInstructor: "asmi"
+}
+
+const{courseInstructor: Instructor} = course
+console.log(Instructor);
 
